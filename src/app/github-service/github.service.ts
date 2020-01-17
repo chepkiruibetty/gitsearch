@@ -10,7 +10,7 @@ export class GithubService {
   private client_id = '5ffa7c5cd4df559a6ac3';
   private client_secret='c928803011adaf70ce872702dc01bc75ef47e6ea';
 
-  constructor(private http:HttpClient) {
+  constructor(private http:HttpClientModule) {
 console.log("Github Service Init...");
    }
 }
