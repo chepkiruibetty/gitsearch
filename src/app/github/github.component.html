@@ -1,3 +1,45 @@
+<div class="row mt-2">
+    <div class="col-md-12">
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Github Username" [(ngModel)]="username"
+                    [ngModelOptions]="{ standalone: true }" />
+            </div>
+            <div class="text-center">
+                <button class="btn btn-info" value="submit" type="submit" (click)="search()">
+                    Search
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div *ngIf="user">
+    <p>{{user.login}}</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div *ngIf="user">
     <p>{{user.login}}</p>
 </div>
