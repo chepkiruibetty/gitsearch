@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http';
  import "rxjs";
 
 @Injectable({
@@ -13,4 +13,17 @@ export class GithubService {
   constructor(private http:HttpClient) {
 console.log("Github Service Init...");
    }
+}
+getUser(){
+  return this._http.get('https://api.github.com/users/'+this.username+'?client_id='+this.client_id+'&client_secret='+this.client_secret)
+      .map(res => res.json());
+}
+
+getRepos(){
+  return this._http.get('https://api.github.com/users/'+this.username+'/repos?client_id='+this.client_id+'&client_secret='+this.client_secret)
+      .map(res => res.json());
+}
+
+updateUsername(username:string){
+  this.username = username;
 }
