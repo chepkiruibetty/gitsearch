@@ -1,19 +1,16 @@
 import { Component, OnInit } from "@angular/core";
-import { GithubService } from  "../github-service/github.service";
-
+import { GithubService } from "../github-service/github.service";
 
 @Component({
-  selector: 'app-github',
-  templateUrl: './github.component.html',
-  styleUrls: ['./github.component.css']
-
+  selector: "app-github",
+  templateUrl: "./github.component.html",
+  styleUrls: ["./github.component.css"]
 })
 export class GithubComponent implements OnInit {
   user: any;
   repos: any;
   username: any;
   constructor(private githubService: GithubService) {
-
     this.githubService.getUser().subscribe(user => {
       this.user = user;
       console.log(this.user);
@@ -38,4 +35,3 @@ export class GithubComponent implements OnInit {
 
   ngOnInit() {}
 }
-
