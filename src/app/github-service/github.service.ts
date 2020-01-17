@@ -1,11 +1,16 @@
 import { Injectable } from '@angular/core';
-import( Http,Headers) from '@angular/http';
-  
+import {HttpClient} from '@angular/common/http';
+ import "rxjs";
 
 @Injectable({
   providedIn: 'root'
 })
 export class GithubService {
+  private username='chepkiruibetty'
+  private client_id = '5ffa7c5cd4df559a6ac3';
+  private client_secret='c928803011adaf70ce872702dc01bc75ef47e6ea';
 
-  constructor() { }
+  constructor(private http:HttpClient) {
+console.log("Github Service Init...");
+   }
 }
