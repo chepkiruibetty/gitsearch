@@ -46,4 +46,4 @@ testem.log
 Thumbs.db
 
 # Ignore .env files as they are personal
-/.env
+environment.ts
