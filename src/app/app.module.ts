@@ -9,6 +9,7 @@ import { GithubComponent } from './github/github.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ToppageComponent } from './toppage/toppage.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ToppageComponent } from './toppage/toppage.component';
     NavbarComponent,
     HomepageComponent,
     ToppageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
