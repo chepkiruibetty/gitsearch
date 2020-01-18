@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from "@angular/common/http";
 import { GithubComponent } from './github/github.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     GithubComponent,
     NavbarComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
