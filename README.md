@@ -28,4 +28,4 @@ This is an an application that enables the user to search the github usernames o
 
 ## License
 
-Licensed under [MIT License](license)
+Licensed under [MIT License](license).

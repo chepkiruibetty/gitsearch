@@ -3,9 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
 };
-
+export class GithubService {
+  private username = 'chepkiruibetty';
+  private client_id = '5ffa7c5cd4df559a6ac3';
+  private client_secret = 'c928803011adaf70ce872702dc01bc75ef47e6ea';
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
