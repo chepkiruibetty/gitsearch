@@ -6,7 +6,7 @@ export const environment = {
   production: false,
 };
 export class GithubService {
- username = 'chepkiruibetty';
+  username = 'chepkiruibetty';
   client_id = '5ffa7c5cd4df559a6ac3';
   client_secret = 'c928803011adaf70ce872702dc01bc75ef47e6ea';
 }
