@@ -22,9 +22,6 @@ This is an an application that enables the user to search the github usernames o
 
 ## ![codebeat badge](https://codebeat.co/badges/4b3b7b1f-6275-4ab0-9aa8-46fd882388c1)](https://codebeat.co/projects/github-com-chepkiruibetty-gitsearch-master)
 
-## Deployed link
-
-
 
 ## License
 
