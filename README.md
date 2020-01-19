@@ -2,26 +2,30 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Author
 
-## Code scaffolding
+Chepkirui Betty
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Description
 
-## Build
+This is an an application that enables the user to search the github usernames of their choice,view their repositories and github profile
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Setup/Installation Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ Open terminal (CTRL ALT T)
+ git clone https://github.com/chepkiruibetty/gitsearch 
+ cd gitsearch
+ use atom . or code . to open the cloned repo on Atom or Vs-code respectively
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## ![codebeat badge](https://codebeat.co/badges/4b3b7b1f-6275-4ab0-9aa8-46fd882388c1)](https://codebeat.co/projects/github-com-chepkiruibetty-gitsearch-master)
 
-## Further help
+## Deployed link
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## License
+
+Licensed under [MIT License](license).
