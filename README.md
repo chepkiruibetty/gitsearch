@@ -24,6 +24,7 @@ This is an an application that enables the user to search the github usernames o
 
 ## Deployed link
 
+https://chepkiruibetty.github.io/gitsearch/
 
 
 ## License
